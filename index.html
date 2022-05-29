@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather-1</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div id="searchbar">
+        <input type="text" id="city" placeholder="Enter City Name">
+        <button onclick="myFn()" id="weather">search</button>
+    </div>
+   
+
+
+    <div class="mapouter">
+
+        <div id="container"></div>
+
+        <div class="gmap_canvas">
+
+            <iframe
+            id="gmap_canvas" 
+            frameborder="0"
+             scrolling="no"
+             marginheight="0" 
+             marginwidth="0"></iframe>
+
+        </div>
+
+        
+    </div>
+
+
+    <div id="seven"></div>
+
+</body>
+</html>
+
+<script src="index.js"></script>
+
+
+
